@@ -1,0 +1,16 @@
+{"variant":"vanilla","run":1,"mode":"gen","rc":0,"elapsed_s":151,"ok":"ok"}
+{"variant":"vanilla","run":1,"mode":"load","rc":0,"elapsed_s":52,"ok":"ok"}
+{"variant":"stratum","run":1,"mode":"gen","rc":0,"elapsed_s":141,"ok":"ok"}
+{"variant":"stratum","run":1,"mode":"load","rc":0,"elapsed_s":52,"ok":"ok"}
+{"variant":"stratum","run":2,"mode":"gen","rc":0,"elapsed_s":146,"ok":"ok"}
+{"variant":"stratum","run":2,"mode":"load","rc":0,"elapsed_s":51,"ok":"ok"}
+{"variant":"vanilla","run":2,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"vanilla","run":2,"mode":"load","rc":0,"elapsed_s":50,"ok":"ok"}
+{"variant":"vanilla","run":3,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"vanilla","run":3,"mode":"load","rc":0,"elapsed_s":51,"ok":"ok"}
+{"variant":"stratum","run":3,"mode":"gen","rc":0,"elapsed_s":140,"ok":"ok"}
+{"variant":"stratum","run":3,"mode":"load","rc":0,"elapsed_s":52,"ok":"ok"}
+{"variant":"stratum","run":4,"mode":"gen","rc":0,"elapsed_s":141,"ok":"ok"}
+{"variant":"stratum","run":4,"mode":"load","rc":0,"elapsed_s":51,"ok":"ok"}
+{"variant":"vanilla","run":4,"mode":"gen","rc":0,"elapsed_s":151,"ok":"ok"}
+{"variant":"vanilla","run":4,"mode":"load","rc":0,"elapsed_s":54,"ok":"ok"}

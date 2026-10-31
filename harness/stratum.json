@@ -1,0 +1,13 @@
+{
+  "ConfigVersion": 3,
+  "UpdateChecker": {
+    "Enabled": false,
+    "CheckOnStartup": false
+  },
+  "ServerStats": {
+    "Enabled": false
+  },
+  "Backup": {
+    "Enabled": false
+  }
+}

@@ -1,0 +1,6 @@
+{"variant":"vanilla","run":1,"mode":"gen","rc":0,"elapsed_s":329,"ok":"ok"}
+{"variant":"stratum","run":1,"mode":"gen","rc":0,"elapsed_s":317,"ok":"ok"}
+{"variant":"stratum","run":2,"mode":"gen","rc":0,"elapsed_s":318,"ok":"ok"}
+{"variant":"vanilla","run":2,"mode":"gen","rc":0,"elapsed_s":328,"ok":"ok"}
+{"variant":"vanilla","run":3,"mode":"gen","rc":0,"elapsed_s":332,"ok":"ok"}
+{"variant":"stratum","run":3,"mode":"gen","rc":0,"elapsed_s":319,"ok":"ok"}

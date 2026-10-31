@@ -1,0 +1,9 @@
+servers/
+build/
+benchdata*/
+bench-bundle.tgz
+**/bin/
+**/obj/
+__pycache__/
+results/mine/
+charts/mine/

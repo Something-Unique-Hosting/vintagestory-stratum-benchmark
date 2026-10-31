@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>StratumBench</AssemblyName>
+    <RootNamespace>StratumBench</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <OutputPath>..\build\stratumbench</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BenchModSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI"><HintPath>$(VS_SERVER)\VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(VS_SERVER)\Lib\0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="modinfo.json"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+  </ItemGroup>
+</Project>

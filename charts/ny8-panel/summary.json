@@ -1,0 +1,1037 @@
+{
+  "runs": {
+    "stratum/gen": 4,
+    "stratum/load": 4,
+    "vanilla/gen": 4,
+    "vanilla/load": 4
+  },
+  "metrics": {
+    "worldgen_wall_s": {
+      "vanilla": {
+        "median": 39.92167265,
+        "runs": [
+          39.5686826,
+          40.0656557,
+          39.777689599999995,
+          40.317747600000004
+        ]
+      },
+      "stratum": {
+        "median": 31.54001025,
+        "runs": [
+          31.566736,
+          30.4797419,
+          31.5396697,
+          31.5403508
+        ]
+      },
+      "change_pct": -20.99526859378723,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "reload_wall_s": {
+      "vanilla": {
+        "median": 1.5298789999999998,
+        "runs": [
+          1.5045392999999994,
+          1.6322309999999998,
+          1.5392831999999999,
+          1.5204748
+        ]
+      },
+      "stratum": {
+        "median": 1.9615540499999997,
+        "runs": [
+          1.8514175,
+          1.9074766999999992,
+          2.4364681999999993,
+          2.0156314
+        ]
+      },
+      "change_pct": 28.216287039693988,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "worldgen_columns_per_s": {
+      "vanilla": {
+        "median": 42.108001866704655,
+        "runs": [
+          42.48309242420924,
+          41.95613351711601,
+          42.25987021629331,
+          41.69379739854316
+        ]
+      },
+      "stratum": {
+        "median": 53.2973828122322,
+        "runs": [
+          53.25225896019151,
+          55.151385648708526,
+          53.29795828521311,
+          53.29680733925128
+        ]
+      },
+      "change_pct": 26.573051319196257,
+      "unit": "columns/s",
+      "lower_is_better": false
+    },
+    "reload_columns_per_s": {
+      "vanilla": {
+        "median": 1098.8212273423683,
+        "runs": [
+          1117.285537174071,
+          1029.8787365268765,
+          1092.0667489906991,
+          1105.5757056940372
+        ]
+      },
+      "stratum": {
+        "median": 857.625402034148,
+        "runs": [
+          907.9529603668541,
+          881.2689559982571,
+          689.9330760811902,
+          833.981848070039
+        ]
+      },
+      "change_pct": -21.950415527699757,
+      "unit": "columns/s",
+      "lower_is_better": false
+    },
+    "worldgen_cpu_s": {
+      "vanilla": {
+        "median": 44.3954615,
+        "runs": [
+          44.045897,
+          44.558913000000004,
+          44.23201,
+          44.708148
+        ]
+      },
+      "stratum": {
+        "median": 59.379923000000005,
+        "runs": [
+          58.774337,
+          57.786002999999994,
+          60.008737,
+          59.985509
+        ]
+      },
+      "change_pct": 33.752237264162694,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "entities_tick_mean_ms": {
+      "vanilla": {
+        "median": 5.029136994376168,
+        "runs": [
+          5.184391927611936,
+          5.126429979790423,
+          4.746084544029851,
+          4.931844008961914
+        ]
+      },
+      "stratum": {
+        "median": 4.254098018874906,
+        "runs": [
+          4.478806061435974,
+          4.085884392883612,
+          4.159708538860102,
+          4.34848749888971
+        ]
+      },
+      "change_pct": -15.410973619687624,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_median_ms": {
+      "vanilla": {
+        "median": 4.558183,
+        "runs": [
+          4.777132,
+          4.609104,
+          4.33706,
+          4.507262
+        ]
+      },
+      "stratum": {
+        "median": 4.0949425,
+        "runs": [
+          4.439163,
+          3.758356,
+          4.01935,
+          4.170535
+        ]
+      },
+      "change_pct": -10.162832426868327,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_p95_ms": {
+      "vanilla": {
+        "median": 6.953469849999998,
+        "runs": [
+          7.184234399999998,
+          6.82718,
+          6.817949499999999,
+          7.079759699999996
+        ]
+      },
+      "stratum": {
+        "median": 5.2300284999999995,
+        "runs": [
+          5.399684,
+          5.0012718,
+          5.192112,
+          5.267944999999999
+        ]
+      },
+      "change_pct": -24.785342960824064,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_p99_ms": {
+      "vanilla": {
+        "median": 16.70970020999999,
+        "runs": [
+          19.327729089999995,
+          17.53715860000001,
+          11.038660079999996,
+          15.882241819999972
+        ]
+      },
+      "stratum": {
+        "median": 10.048416599999996,
+        "runs": [
+          9.24313,
+          9.929124199999992,
+          11.003324,
+          10.167708999999999
+        ]
+      },
+      "change_pct": -39.864770320735744,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_mean_ms": {
+      "vanilla": {
+        "median": 1.4473313483333339,
+        "runs": [
+          1.3331108766666677,
+          1.5615518200000003,
+          1.2007178683333344,
+          1.6746147200000003
+        ]
+      },
+      "stratum": {
+        "median": 2.0485738791666686,
+        "runs": [
+          2.02856411666667,
+          1.8702723166666673,
+          2.161766881666666,
+          2.0685836416666668
+        ]
+      },
+      "change_pct": 41.54145707724026,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_median_ms": {
+      "vanilla": {
+        "median": 1.5384335,
+        "runs": [
+          1.4676395,
+          1.635171,
+          1.3620904999999999,
+          1.6092275
+        ]
+      },
+      "stratum": {
+        "median": 1.8589975,
+        "runs": [
+          1.8178325,
+          1.7545674999999998,
+          2.03892,
+          1.9001625
+        ]
+      },
+      "change_pct": 20.837039755049542,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_p95_ms": {
+      "vanilla": {
+        "median": 2.1817826999999994,
+        "runs": [
+          2.241901,
+          2.1711346999999988,
+          1.9216029,
+          2.1924307
+        ]
+      },
+      "stratum": {
+        "median": 3.097249774999999,
+        "runs": [
+          3.110705999999999,
+          2.7975727499999996,
+          3.1192493999999993,
+          3.0837935499999993
+        ]
+      },
+      "change_pct": 41.95958997199858,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_p99_ms": {
+      "vanilla": {
+        "median": 2.7447511099999997,
+        "runs": [
+          3.6698823799999927,
+          2.77557902,
+          2.4587436599999988,
+          2.7139231999999995
+        ]
+      },
+      "stratum": {
+        "median": 3.460262845,
+        "runs": [
+          3.4782443499999998,
+          3.116804869999999,
+          3.44228134,
+          3.486113939999999
+        ]
+      },
+      "change_pct": 26.068364901763363,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_cpu_pct_of_one_core": {
+      "vanilla": {
+        "median": 5.490045968110161,
+        "runs": [
+          5.159567392431728,
+          5.820524543788594,
+          4.708276702857057,
+          6.195638671009726
+        ]
+      },
+      "stratum": {
+        "median": 12.988505180378553,
+        "runs": [
+          13.01762982781354,
+          12.938413016652387,
+          12.959380532943566,
+          13.182303424336354
+        ]
+      },
+      "change_pct": 136.58281289126595,
+      "unit": "%",
+      "lower_is_better": true
+    },
+    "entities_cpu_pct_of_one_core": {
+      "vanilla": {
+        "median": 19.51711292678479,
+        "runs": [
+          20.200667337795984,
+          19.61407179378343,
+          17.169969862896348,
+          19.42015405978615
+        ]
+      },
+      "stratum": {
+        "median": 20.21855307552777,
+        "runs": [
+          19.998263435393426,
+          20.397103783255606,
+          20.040002367799932,
+          21.177275787530757
+        ]
+      },
+      "change_pct": 3.593974945855542,
+      "unit": "%",
+      "lower_is_better": true
+    },
+    "peak_working_set_mb": {
+      "vanilla": {
+        "median": 1760.712890625,
+        "runs": [
+          1758.31640625,
+          1763.109375,
+          1768.640625,
+          1741.2109375
+        ]
+      },
+      "stratum": {
+        "median": 2686.130859375,
+        "runs": [
+          2780.46875,
+          2591.79296875,
+          2782.6484375,
+          2510.15625
+        ]
+      },
+      "change_pct": 52.55927719263216,
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "heap_after_worldgen_mb": {
+      "vanilla": {
+        "median": 1216.476261138916,
+        "runs": [
+          1230.6800079345703,
+          1214.3773880004883,
+          1204.2845916748047,
+          1218.5751342773438
+        ]
+      },
+      "stratum": {
+        "median": 1931.145896911621,
+        "runs": [
+          1611.5994033813477,
+          1847.4813537597656,
+          2014.8104400634766,
+          2156.9389877319336
+        ]
+      },
+      "change_pct": 58.749164172229825,
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "worldgen_cpu_ms": {
+      "vanilla": {
+        "median": 44395.461500000005,
+        "runs": [
+          44045.897,
+          44558.913,
+          44232.01,
+          44708.148
+        ]
+      },
+      "stratum": {
+        "median": 59379.922999999995,
+        "runs": [
+          58774.337,
+          57786.003,
+          60008.737,
+          59985.509
+        ]
+      },
+      "change_pct": 33.752237264162666,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "worldgen_gc_pause_ms": {
+      "vanilla": {
+        "median": 1009.9200000000001,
+        "runs": [
+          1068.112,
+          1014.85,
+          989.276,
+          1004.99
+        ]
+      },
+      "stratum": {
+        "median": 686.0115000000001,
+        "runs": [
+          690.294,
+          691.97,
+          670.3,
+          681.729
+        ]
+      },
+      "change_pct": -32.072688925855516,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "worldgen_gc_gen0": {
+      "vanilla": {
+        "median": 349.5,
+        "runs": [
+          350,
+          350,
+          349,
+          349
+        ]
+      },
+      "stratum": {
+        "median": 111.5,
+        "runs": [
+          113,
+          112,
+          110,
+          111
+        ]
+      },
+      "change_pct": -68.0972818311874,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "worldgen_gc_gen2": {
+      "vanilla": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "stratum": {
+        "median": 9.0,
+        "runs": [
+          10,
+          9,
+          9,
+          8
+        ]
+      },
+      "change_pct": 800.0,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "idle_cpu_ms": {
+      "vanilla": {
+        "median": 1108.5925000000002,
+        "runs": [
+          1041.515,
+          1175.67,
+          948.458,
+          1250.033
+        ]
+      },
+      "stratum": {
+        "median": 2597.9139999999998,
+        "runs": [
+          2603.64,
+          2587.902,
+          2592.188,
+          2636.773
+        ]
+      },
+      "change_pct": 134.34345803349737,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_gc_pause_ms": {
+      "vanilla": {
+        "median": 12.5265,
+        "runs": [
+          29.182,
+          10.867,
+          14.186,
+          10.832
+        ]
+      },
+      "stratum": {
+        "median": 9.4845,
+        "runs": [
+          8.528,
+          10.441,
+          11.271,
+          5.002
+        ]
+      },
+      "change_pct": -24.284516824332414,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_gc_gen0": {
+      "vanilla": {
+        "median": 10.0,
+        "runs": [
+          10,
+          10,
+          9,
+          10
+        ]
+      },
+      "stratum": {
+        "median": 3.0,
+        "runs": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "change_pct": -70.0,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "idle_gc_gen2": {
+      "vanilla": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "stratum": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "change_pct": NaN,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "entities_cpu_ms": {
+      "vanilla": {
+        "median": 8774.1165,
+        "runs": [
+          9080.783,
+          8811.534,
+          7712.53,
+          8736.699
+        ]
+      },
+      "stratum": {
+        "median": 9097.344,
+        "runs": [
+          9001.59,
+          9172.201,
+          9022.487,
+          9533.217
+        ]
+      },
+      "change_pct": 3.6838751799112655,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_gc_pause_ms": {
+      "vanilla": {
+        "median": 215.345,
+        "runs": [
+          220.187,
+          210.503,
+          200.835,
+          228.479
+        ]
+      },
+      "stratum": {
+        "median": 141.50900000000001,
+        "runs": [
+          137.333,
+          124.666,
+          145.685,
+          148.903
+        ]
+      },
+      "change_pct": -34.28730641528709,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_gc_gen0": {
+      "vanilla": {
+        "median": 56.0,
+        "runs": [
+          57,
+          55,
+          49,
+          58
+        ]
+      },
+      "stratum": {
+        "median": 19.5,
+        "runs": [
+          17,
+          19,
+          20,
+          20
+        ]
+      },
+      "change_pct": -65.17857142857143,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "entities_gc_gen2": {
+      "vanilla": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "stratum": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "change_pct": -100.0,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "startup_fresh_s": {
+      "vanilla": {
+        "median": 16.68200685,
+        "runs": [
+          16.7694634,
+          16.594550299999998,
+          16.888510399999998,
+          15.9613208
+        ]
+      },
+      "stratum": {
+        "median": 14.8304322,
+        "runs": [
+          14.590525,
+          20.9802397,
+          14.6601292,
+          15.0007352
+        ]
+      },
+      "change_pct": -11.099232044734473,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "startup_existing_s": {
+      "vanilla": {
+        "median": 10.8890926,
+        "runs": [
+          11.2599228,
+          10.4479594,
+          10.5182624,
+          12.949933699999999
+        ]
+      },
+      "stratum": {
+        "median": 10.49612755,
+        "runs": [
+          12.1202686,
+          10.2503802,
+          10.741874900000001,
+          10.204714099999999
+        ]
+      },
+      "change_pct": -3.6087951901520157,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "idle_tps": {
+      "vanilla": {
+        "median": 29.730858221458163,
+        "runs": [
+          29.723435912675637,
+          29.704889350524862,
+          29.784829920926747,
+          29.738280530240687
+        ]
+      },
+      "stratum": {
+        "median": 29.996951643284948,
+        "runs": [
+          29.99868605755067,
+          29.997456665636612,
+          29.99639038436309,
+          29.996446620933284
+        ]
+      },
+      "change_pct": 0.8950075367643864,
+      "unit": "ticks/s",
+      "lower_is_better": false
+    },
+    "entities_tps": {
+      "vanilla": {
+        "median": 29.786307717981387,
+        "runs": [
+          29.80898699225234,
+          29.73874914004152,
+          29.831663042193814,
+          29.763628443710434
+        ]
+      },
+      "stratum": {
+        "median": 30.009337552090106,
+        "runs": [
+          30.014312917180764,
+          29.999007875657995,
+          30.0072953265521,
+          30.01137977762811
+        ]
+      },
+      "change_pct": 0.7487662996715766,
+      "unit": "ticks/s",
+      "lower_is_better": false
+    }
+  },
+  "systems_per_tick_ms": {
+    "vanilla/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 0.9075669408333339,
+      "EventManager.TriggerGameTick": 0.5147524866666668
+    },
+    "stratum/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 1.1506999158333333,
+      "EventManager.TriggerGameTick": 0.783074554166667
+    },
+    "vanilla/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": 3.5795956460284666,
+      "EventManager.TriggerGameTick": 1.399733920576175
+    },
+    "stratum/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": 2.9381706199144704,
+      "EventManager.TriggerGameTick": 1.3047581928201355
+    }
+  },
+  "systems": {
+    "vanilla/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": {
+        "total_ms": 486.7965910000002,
+        "calls": 600,
+        "max_ms": 1.9564089999999998
+      },
+      "EventManager.TriggerGameTick": {
+        "total_ms": 300.9709160000006,
+        "calls": 1200,
+        "max_ms": 4.022505
+      },
+      "ServerSystemSendChunks.OnServerTick": {
+        "total_ms": 2.2963679999999993,
+        "calls": 600,
+        "max_ms": 0.012393
+      },
+      "ServerSystemNotifyPing.OnServerTick": {
+        "total_ms": 1.0423649999999989,
+        "calls": 600,
+        "max_ms": 0.017543
+      },
+      "ServerMain.ProcessMainThreadTasks": {
+        "total_ms": 0.8537179999999992,
+        "calls": 600,
+        "max_ms": 0.0048
+      },
+      "ServerSystemCalendar.OnServerTick": {
+        "total_ms": 0.7983270000000005,
+        "calls": 99,
+        "max_ms": 0.021431
+      },
+      "ServerSystemUnloadChunks.OnServerTick": {
+        "total_ms": 0.6660520000000003,
+        "calls": 99,
+        "max_ms": 0.072197
+      },
+      "ServerSystemCompressChunks.OnServerTick": {
+        "total_ms": 0.513860999999999,
+        "calls": 600,
+        "max_ms": 0.004288
+      },
+      "ServerSystemClientAwareness.OnServerTick": {
+        "total_ms": 0.4760720000000001,
+        "calls": 186,
+        "max_ms": 0.008597
+      },
+      "ServerSystemBlockSimulation.OnServerTick": {
+        "total_ms": 0.147629,
+        "calls": 67,
+        "max_ms": 0.009588
+      },
+      "ServerSystemLoadConfig.OnServerTick": {
+        "total_ms": 0.14266799999999993,
+        "calls": 186,
+        "max_ms": 0.003878
+      },
+      "ServerSystemKickAfkPlayers.OnServerTick": {
+        "total_ms": 0.023307999999999995,
+        "calls": 20,
+        "max_ms": 0.0017239999999999998
+      }
+    },
+    "vanilla/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": {
+        "total_ms": 5006.682014000003,
+        "calls": 1340,
+        "max_ms": 28.273044
+      },
+      "EventManager.TriggerGameTick": {
+        "total_ms": 1900.435834000003,
+        "calls": 2680,
+        "max_ms": 157.760176
+      },
+      "ServerSystemSendChunks.OnServerTick": {
+        "total_ms": 8.092546,
+        "calls": 1340,
+        "max_ms": 0.014036
+      },
+      "ServerSystemUnloadChunks.OnServerTick": {
+        "total_ms": 4.062392999999999,
+        "calls": 220,
+        "max_ms": 2.267106
+      },
+      "ServerSystemCompressChunks.OnServerTick": {
+        "total_ms": 3.9986150000000005,
+        "calls": 1340,
+        "max_ms": 2.322942
+      },
+      "ServerSystemNotifyPing.OnServerTick": {
+        "total_ms": 3.4814329999999956,
+        "calls": 1340,
+        "max_ms": 0.009478
+      },
+      "ServerMain.ProcessMainThreadTasks": {
+        "total_ms": 3.0992149999999974,
+        "calls": 1340,
+        "max_ms": 0.006933
+      },
+      "ServerSystemClientAwareness.OnServerTick": {
+        "total_ms": 1.4025869999999994,
+        "calls": 394,
+        "max_ms": 0.007613999999999999
+      },
+      "ServerSystemCalendar.OnServerTick": {
+        "total_ms": 1.3555070000000013,
+        "calls": 220,
+        "max_ms": 0.019527
+      },
+      "ServerSystemLoadConfig.OnServerTick": {
+        "total_ms": 0.39728100000000005,
+        "calls": 394,
+        "max_ms": 0.00564
+      },
+      "ServerSystemBlockSimulation.OnServerTick": {
+        "total_ms": 0.3081670000000002,
+        "calls": 149,
+        "max_ms": 0.007554
+      },
+      "ServerSystemKickAfkPlayers.OnServerTick": {
+        "total_ms": 0.058932,
+        "calls": 44,
+        "max_ms": 0.002365
+      }
+    },
+    "stratum/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": {
+        "total_ms": 713.174106,
+        "calls": 600,
+        "max_ms": 6.228765999999999
+      },
+      "EventManager.TriggerGameTick": {
+        "total_ms": 477.8430700000005,
+        "calls": 1200,
+        "max_ms": 2.5793369999999998
+      },
+      "ServerSystemSendChunks.OnServerTick": {
+        "total_ms": 3.2193440000000026,
+        "calls": 600,
+        "max_ms": 0.013626
+      },
+      "ServerMain.ProcessMainThreadTasks": {
+        "total_ms": 1.496311000000001,
+        "calls": 600,
+        "max_ms": 0.010019
+      },
+      "ServerSystemNotifyPing.OnServerTick": {
+        "total_ms": 1.1729149999999993,
+        "calls": 600,
+        "max_ms": 0.016461
+      },
+      "ServerSystemStratumPregen.OnServerTick": {
+        "total_ms": 0.9536910000000005,
+        "calls": 300,
+        "max_ms": 0.009226999999999999
+      },
+      "ServerSystemCompressChunks.OnServerTick": {
+        "total_ms": 0.8770750000000003,
+        "calls": 600,
+        "max_ms": 0.0061909999999999995
+      },
+      "ServerSystemBlockSimulation.OnServerTick": {
+        "total_ms": 0.8597520000000003,
+        "calls": 300,
+        "max_ms": 0.005971
+      },
+      "ServerSystemCalendar.OnServerTick": {
+        "total_ms": 0.711583,
+        "calls": 86,
+        "max_ms": 0.024385999999999998
+      },
+      "ServerSystemUnloadChunks.OnServerTick": {
+        "total_ms": 0.6024060000000001,
+        "calls": 86,
+        "max_ms": 0.065373
+      },
+      "ServerSystemClientAwareness.OnServerTick": {
+        "total_ms": 0.5759389999999995,
+        "calls": 150,
+        "max_ms": 0.009968
+      },
+      "ServerSystemLoadConfig.OnServerTick": {
+        "total_ms": 0.17889999999999995,
+        "calls": 150,
+        "max_ms": 0.002796
+      }
+    },
+    "stratum/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": {
+        "total_ms": 3963.362819000003,
+        "calls": 1351,
+        "max_ms": 25.91697
+      },
+      "EventManager.TriggerGameTick": {
+        "total_ms": 2031.5716990000044,
+        "calls": 2702,
+        "max_ms": 77.768361
+      },
+      "ServerSystemSendChunks.OnServerTick": {
+        "total_ms": 7.189033000000012,
+        "calls": 1351,
+        "max_ms": 0.017502999999999998
+      },
+      "ServerMain.ProcessMainThreadTasks": {
+        "total_ms": 3.3391989999999976,
+        "calls": 1351,
+        "max_ms": 0.007202999999999999
+      },
+      "ServerSystemNotifyPing.OnServerTick": {
+        "total_ms": 2.5074630000000013,
+        "calls": 1351,
+        "max_ms": 0.014608
+      },
+      "ServerSystemBlockSimulation.OnServerTick": {
+        "total_ms": 1.893710999999999,
+        "calls": 676,
+        "max_ms": 0.005861
+      },
+      "ServerSystemUnloadChunks.OnServerTick": {
+        "total_ms": 1.887306,
+        "calls": 194,
+        "max_ms": 0.630702
+      },
+      "ServerSystemCompressChunks.OnServerTick": {
+        "total_ms": 1.8860390000000027,
+        "calls": 1351,
+        "max_ms": 0.004418
+      },
+      "ServerSystemStratumPregen.OnServerTick": {
+        "total_ms": 1.702530999999999,
+        "calls": 676,
+        "max_ms": 0.008276
+      },
+      "ServerSystemCalendar.OnServerTick": {
+        "total_ms": 1.1273440000000006,
+        "calls": 194,
+        "max_ms": 0.019076
+      },
+      "ServerSystemClientAwareness.OnServerTick": {
+        "total_ms": 1.1087940000000005,
+        "calls": 339,
+        "max_ms": 0.008775999999999999
+      },
+      "ServerSystemLoadConfig.OnServerTick": {
+        "total_ms": 0.4055869999999998,
+        "calls": 339,
+        "max_ms": 0.004619
+      }
+    }
+  }
+}

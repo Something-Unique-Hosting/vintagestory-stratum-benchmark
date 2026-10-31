@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "stratumbench",
+  "name": "Stratum Bench",
+  "description": "Headless server benchmark: worldgen throughput, idle tick cost, entity tick cost, memory and GC. Writes one JSON file and shuts the server down.",
+  "authors": [ "Something Unique Hosting" ],
+  "version": "1.0.0",
+  "side": "server",
+  "requiredonclient": false,
+  "dependencies": { "game": "" }
+}

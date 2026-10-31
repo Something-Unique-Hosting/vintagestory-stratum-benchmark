@@ -1,0 +1,832 @@
+{
+  "runs": {
+    "stratum/gen": 3,
+    "vanilla/gen": 3
+  },
+  "metrics": {
+    "worldgen_wall_s": {
+      "vanilla": {
+        "median": 40.3347995,
+        "runs": [
+          40.05507359999999,
+          40.3347995,
+          41.4382671
+        ]
+      },
+      "stratum": {
+        "median": 31.583077199999998,
+        "runs": [
+          31.583077199999998,
+          31.255904499999996,
+          32.6507917
+        ]
+      },
+      "change_pct": -21.69769630316373,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "reload_wall_s": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "worldgen_columns_per_s": {
+      "vanilla": {
+        "median": 41.676170969933786,
+        "runs": [
+          41.96721785576747,
+          41.676170969933786,
+          40.56636818193587
+        ]
+      },
+      "stratum": {
+        "median": 53.22470604605938,
+        "runs": [
+          53.22470604605938,
+          53.781838244354766,
+          51.48420336772416
+        ]
+      },
+      "change_pct": 27.71016340358377,
+      "unit": "columns/s",
+      "lower_is_better": false
+    },
+    "reload_columns_per_s": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "columns/s",
+      "lower_is_better": false
+    },
+    "worldgen_cpu_s": {
+      "vanilla": {
+        "median": 45.029751,
+        "runs": [
+          44.558750999999994,
+          45.029751,
+          46.265627
+        ]
+      },
+      "stratum": {
+        "median": 60.334165999999996,
+        "runs": [
+          58.756012999999996,
+          60.334165999999996,
+          62.479218
+        ]
+      },
+      "change_pct": 33.98734094709962,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "entities_tick_mean_ms": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_median_ms": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_p95_ms": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_p99_ms": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_mean_ms": {
+      "vanilla": {
+        "median": 1.7068053749999998,
+        "runs": [
+          1.7068053749999998,
+          1.7071562750000002,
+          1.6541013950000008
+        ]
+      },
+      "stratum": {
+        "median": 1.9332208466666672,
+        "runs": [
+          1.8739219516666652,
+          1.9332208466666672,
+          2.1070097250000015
+        ]
+      },
+      "change_pct": 13.265453401016348,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_median_ms": {
+      "vanilla": {
+        "median": 1.7248514999999998,
+        "runs": [
+          1.6874799999999999,
+          1.764005,
+          1.7248514999999998
+        ]
+      },
+      "stratum": {
+        "median": 1.7828209999999998,
+        "runs": [
+          1.7198565,
+          1.7828209999999998,
+          1.9092845
+        ]
+      },
+      "change_pct": 3.360840049128868,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_p95_ms": {
+      "vanilla": {
+        "median": 2.2438555499999997,
+        "runs": [
+          2.2368948499999997,
+          2.266376099999999,
+          2.2438555499999997
+        ]
+      },
+      "stratum": {
+        "median": 2.977973799999999,
+        "runs": [
+          2.92240755,
+          2.977973799999999,
+          3.0393283999999996
+        ]
+      },
+      "change_pct": 32.71682305930966,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_p99_ms": {
+      "vanilla": {
+        "median": 2.8623494399999974,
+        "runs": [
+          2.5324030899999994,
+          2.8623494399999974,
+          3.1437712499999986
+        ]
+      },
+      "stratum": {
+        "median": 3.2837952299999995,
+        "runs": [
+          3.12675526,
+          3.2837952299999995,
+          3.3707326499999994
+        ]
+      },
+      "change_pct": 14.723771462369129,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_cpu_pct_of_one_core": {
+      "vanilla": {
+        "median": 6.2340786321419115,
+        "runs": [
+          6.2340786321419115,
+          6.775534775516913,
+          6.188100210288094
+        ]
+      },
+      "stratum": {
+        "median": 12.690306335281235,
+        "runs": [
+          12.519700038820018,
+          13.063901607447123,
+          12.690306335281235
+        ]
+      },
+      "change_pct": 103.5634627682116,
+      "unit": "%",
+      "lower_is_better": true
+    },
+    "entities_cpu_pct_of_one_core": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "%",
+      "lower_is_better": true
+    },
+    "peak_working_set_mb": {
+      "vanilla": {
+        "median": 2569.5,
+        "runs": [
+          2589.06640625,
+          2569.5,
+          2547.68359375
+        ]
+      },
+      "stratum": {
+        "median": 3331.8359375,
+        "runs": [
+          3366.3515625,
+          3331.8359375,
+          3084.0234375
+        ]
+      },
+      "change_pct": 29.668649056236625,
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "heap_after_worldgen_mb": {
+      "vanilla": {
+        "median": 1217.1904373168945,
+        "runs": [
+          1209.1370544433594,
+          1217.1904373168945,
+          1217.5989837646484
+        ]
+      },
+      "stratum": {
+        "median": 1910.0450286865234,
+        "runs": [
+          1910.0450286865234,
+          2034.9065322875977,
+          1631.206558227539
+        ]
+      },
+      "change_pct": 56.92244780503848,
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "worldgen_cpu_ms": {
+      "vanilla": {
+        "median": 45029.751,
+        "runs": [
+          44558.751,
+          45029.751,
+          46265.627
+        ]
+      },
+      "stratum": {
+        "median": 60334.166,
+        "runs": [
+          58756.013,
+          60334.166,
+          62479.218
+        ]
+      },
+      "change_pct": 33.987340947099625,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "worldgen_gc_pause_ms": {
+      "vanilla": {
+        "median": 1010.428,
+        "runs": [
+          1005.765,
+          1084.397,
+          1010.428
+        ]
+      },
+      "stratum": {
+        "median": 692.435,
+        "runs": [
+          692.435,
+          686.396,
+          699.975
+        ]
+      },
+      "change_pct": -31.47111916930252,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "worldgen_gc_gen0": {
+      "vanilla": {
+        "median": 351.0,
+        "runs": [
+          351,
+          351,
+          349
+        ]
+      },
+      "stratum": {
+        "median": 112.0,
+        "runs": [
+          114,
+          112,
+          112
+        ]
+      },
+      "change_pct": -68.09116809116809,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "worldgen_gc_gen2": {
+      "vanilla": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          1
+        ]
+      },
+      "stratum": {
+        "median": 9.0,
+        "runs": [
+          10,
+          9,
+          9
+        ]
+      },
+      "change_pct": 800.0,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "idle_cpu_ms": {
+      "vanilla": {
+        "median": 1258.837,
+        "runs": [
+          1258.837,
+          1368.32,
+          1250.376
+        ]
+      },
+      "stratum": {
+        "median": 2538.206,
+        "runs": [
+          2504.229,
+          2613.028,
+          2538.206
+        ]
+      },
+      "change_pct": 101.63102927543439,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_gc_pause_ms": {
+      "vanilla": {
+        "median": 14.615,
+        "runs": [
+          10.826,
+          14.615,
+          16.871
+        ]
+      },
+      "stratum": {
+        "median": 9.042,
+        "runs": [
+          9.963,
+          9.042,
+          8.962
+        ]
+      },
+      "change_pct": -38.132056106739654,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_gc_gen0": {
+      "vanilla": {
+        "median": 10.0,
+        "runs": [
+          10,
+          14,
+          10
+        ]
+      },
+      "stratum": {
+        "median": 4.0,
+        "runs": [
+          4,
+          4,
+          4
+        ]
+      },
+      "change_pct": -60.0,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "idle_gc_gen2": {
+      "vanilla": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stratum": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "change_pct": NaN,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "entities_cpu_ms": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_gc_pause_ms": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_gc_gen0": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "entities_gc_gen2": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "collections",
+      "lower_is_better": true
+    },
+    "startup_fresh_s": {
+      "vanilla": {
+        "median": 18.2483926,
+        "runs": [
+          18.2483926,
+          17.0275445,
+          18.8339832
+        ]
+      },
+      "stratum": {
+        "median": 14.715266600000001,
+        "runs": [
+          14.3936113,
+          14.715266600000001,
+          15.4645533
+        ]
+      },
+      "change_pct": -19.361299800180745,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "startup_existing_s": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "idle_tps": {
+      "vanilla": {
+        "median": 29.71030800770396,
+        "runs": [
+          29.713514770261337,
+          29.71030800770396,
+          29.693949069502747
+        ]
+      },
+      "stratum": {
+        "median": 29.99715641955721,
+        "runs": [
+          29.996537949572545,
+          29.99715641955721,
+          29.998289347549964
+        ]
+      },
+      "change_pct": 0.9654844768989562,
+      "unit": "ticks/s",
+      "lower_is_better": false
+    },
+    "entities_tps": {
+      "vanilla": {
+        "median": NaN,
+        "runs": []
+      },
+      "stratum": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": NaN,
+      "unit": "ticks/s",
+      "lower_is_better": false
+    },
+    "ladder_1000_vanilla": {
+      "mean_ms": 8.588864515695064,
+      "p99_ms": 31.583733640000002,
+      "tps": 29.758906734146674,
+      "entities_end": 2024.0,
+      "cpu_pct": 29.876560775857687
+    },
+    "ladder_1000_stratum": {
+      "mean_ms": 6.351951318181823,
+      "p99_ms": 18.891002070000003,
+      "tps": 30.01753926150204,
+      "entities_end": 2031.0,
+      "cpu_pct": 26.95271230630555
+    },
+    "ladder_2000_vanilla": {
+      "mean_ms": 17.19358566741827,
+      "p99_ms": 47.321595020000004,
+      "tps": 29.443053539547297,
+      "entities_end": 3024.0,
+      "cpu_pct": 58.074175874823986
+    },
+    "ladder_2000_stratum": {
+      "mean_ms": 11.428277336293,
+      "p99_ms": 32.16631462,
+      "tps": 29.936687527520753,
+      "entities_end": 3031.0,
+      "cpu_pct": 43.83318849144489
+    },
+    "ladder_3000_vanilla": {
+      "mean_ms": 25.696176353216316,
+      "p99_ms": 57.86867932000001,
+      "tps": 28.512048606196004,
+      "entities_end": 4024.0,
+      "cpu_pct": 82.27361218104373
+    },
+    "ladder_3000_stratum": {
+      "mean_ms": 16.832047430665163,
+      "p99_ms": 42.93667725999999,
+      "tps": 29.731360043947156,
+      "entities_end": 4031.0,
+      "cpu_pct": 60.25262659881724
+    },
+    "ladder_4000_vanilla": {
+      "mean_ms": 35.21596905512818,
+      "p99_ms": 81.76360344000004,
+      "tps": 25.79840623363964,
+      "entities_end": 5024.0,
+      "cpu_pct": 111.6699647259638
+    },
+    "ladder_4000_stratum": {
+      "mean_ms": 22.09456699770641,
+      "p99_ms": 51.535003499999995,
+      "tps": 29.24773454510391,
+      "entities_end": 5031.0,
+      "cpu_pct": 78.85644611861188
+    },
+    "ladder_6000_vanilla": {
+      "mean_ms": 58.58379009864603,
+      "p99_ms": 105.550513,
+      "tps": 17.129816992755266,
+      "entities_end": 7024.0,
+      "cpu_pct": 147.15344106464104
+    },
+    "ladder_6000_stratum": {
+      "mean_ms": 33.0269145930521,
+      "p99_ms": 64.05430039999999,
+      "tps": 26.978317260293945,
+      "entities_end": 7031.0,
+      "cpu_pct": 117.43135137305157
+    },
+    "ladder_8000_vanilla": {
+      "mean_ms": 67.99993873094174,
+      "p99_ms": 118.68152522000001,
+      "tps": 14.760879673498868,
+      "entities_end": 9024.0,
+      "cpu_pct": 144.33448404249935
+    },
+    "ladder_8000_stratum": {
+      "mean_ms": 39.84480576933331,
+      "p99_ms": 71.58943648,
+      "tps": 24.853348262132123,
+      "entities_end": 9031.0,
+      "cpu_pct": 138.38589863435996
+    },
+    "ladder_10000_vanilla": {
+      "mean_ms": 89.42815141543032,
+      "p99_ms": 158.49245451999982,
+      "tps": 11.221355994585387,
+      "entities_end": 11024.0,
+      "cpu_pct": 147.97741334831437
+    },
+    "ladder_10000_stratum": {
+      "mean_ms": 51.72429858319041,
+      "p99_ms": 93.77597639999989,
+      "tps": 19.419533424491224,
+      "entities_end": 11031.0,
+      "cpu_pct": 139.83518092177843
+    }
+  },
+  "systems_per_tick_ms": {
+    "vanilla/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 1.1016640199999992,
+      "EventManager.TriggerGameTick": 0.5737766533333332
+    },
+    "stratum/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 1.0753445383333329,
+      "EventManager.TriggerGameTick": 0.8180860016666658
+    }
+  },
+  "systems": {
+    "vanilla/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": {
+        "total_ms": 660.9984119999995,
+        "calls": 600,
+        "max_ms": 1.6159249999999998
+      },
+      "EventManager.TriggerGameTick": {
+        "total_ms": 345.70844699999935,
+        "calls": 1200,
+        "max_ms": 3.7483869999999997
+      },
+      "ServerSystemSendChunks.OnServerTick": {
+        "total_ms": 3.159922000000002,
+        "calls": 600,
+        "max_ms": 0.009689
+      },
+      "ServerSystemUnloadChunks.OnServerTick": {
+        "total_ms": 2.5956839999999994,
+        "calls": 99,
+        "max_ms": 2.073771
+      },
+      "ServerMain.ProcessMainThreadTasks": {
+        "total_ms": 1.3898549999999994,
+        "calls": 600,
+        "max_ms": 0.005821
+      },
+      "ServerSystemNotifyPing.OnServerTick": {
+        "total_ms": 1.306217000000001,
+        "calls": 600,
+        "max_ms": 0.006913
+      },
+      "ServerSystemCalendar.OnServerTick": {
+        "total_ms": 0.8561799999999996,
+        "calls": 99,
+        "max_ms": 0.022151999999999998
+      },
+      "ServerSystemCompressChunks.OnServerTick": {
+        "total_ms": 0.6661629999999997,
+        "calls": 600,
+        "max_ms": 0.004619
+      },
+      "ServerSystemClientAwareness.OnServerTick": {
+        "total_ms": 0.6630779999999997,
+        "calls": 188,
+        "max_ms": 0.006362
+      },
+      "ServerSystemLoadConfig.OnServerTick": {
+        "total_ms": 0.17681999999999998,
+        "calls": 188,
+        "max_ms": 0.002655
+      },
+      "ServerSystemBlockSimulation.OnServerTick": {
+        "total_ms": 0.12212999999999999,
+        "calls": 66,
+        "max_ms": 0.0048189999999999995
+      },
+      "PlayerAntiAbuseMonitor.OnServerTick": {
+        "total_ms": 0.030738999999999992,
+        "calls": 20,
+        "max_ms": 0.001993
+      }
+    },
+    "stratum/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": {
+        "total_ms": 677.7543249999998,
+        "calls": 600,
+        "max_ms": 5.80774
+      },
+      "EventManager.TriggerGameTick": {
+        "total_ms": 422.3381149999999,
+        "calls": 1200,
+        "max_ms": 2.624672
+      },
+      "ServerSystemSendChunks.OnServerTick": {
+        "total_ms": 3.155173999999998,
+        "calls": 600,
+        "max_ms": 0.009807999999999999
+      },
+      "ServerMain.ProcessMainThreadTasks": {
+        "total_ms": 1.3750439999999997,
+        "calls": 600,
+        "max_ms": 0.004508
+      },
+      "ServerSystemNotifyPing.OnServerTick": {
+        "total_ms": 1.0561379999999987,
+        "calls": 600,
+        "max_ms": 0.01588
+      },
+      "ServerSystemStratumPregen.OnServerTick": {
+        "total_ms": 1.0210549999999998,
+        "calls": 300,
+        "max_ms": 0.006732999999999999
+      },
+      "ServerSystemBlockSimulation.OnServerTick": {
+        "total_ms": 0.7341489999999996,
+        "calls": 300,
+        "max_ms": 0.0040479999999999995
+      },
+      "ServerSystemCalendar.OnServerTick": {
+        "total_ms": 0.6827059999999998,
+        "calls": 86,
+        "max_ms": 0.020538999999999998
+      },
+      "ServerSystemUnloadChunks.OnServerTick": {
+        "total_ms": 0.6303980000000001,
+        "calls": 86,
+        "max_ms": 0.064371
+      },
+      "ServerSystemCompressChunks.OnServerTick": {
+        "total_ms": 0.6284640000000001,
+        "calls": 600,
+        "max_ms": 0.003977
+      },
+      "ServerSystemClientAwareness.OnServerTick": {
+        "total_ms": 0.5150349999999999,
+        "calls": 150,
+        "max_ms": 0.007754
+      },
+      "ServerSystemLoadConfig.OnServerTick": {
+        "total_ms": 0.18763900000000003,
+        "calls": 150,
+        "max_ms": 0.004138
+      }
+    }
+  },
+  "ladder_table_md": "| Creatures spawned | Vanilla mean / p99 tick | Vanilla TPS | Stratum mean / p99 tick | Stratum TPS |\n|---|---|---|---|---|\n| 1,000 | 8.6 / 31.6 ms | 29.8 | 6.4 / 18.9 ms | 30.0 |\n| 2,000 | 17.2 / 47.3 ms | 29.4 | 11.4 / 32.2 ms | 29.9 |\n| 3,000 | 25.7 / 57.9 ms | 28.5 | 16.8 / 42.9 ms | 29.7 |\n| 4,000 | 35.2 / 81.8 ms | 25.8 | 22.1 / 51.5 ms | 29.2 |\n| 6,000 | 58.6 / 105.6 ms | 17.1 | 33.0 / 64.1 ms | 27.0 |\n| 8,000 | 68.0 / 118.7 ms | 14.8 | 39.8 / 71.6 ms | 24.9 |\n| 10,000 | 89.4 / 158.5 ms | 11.2 | 51.7 / 93.8 ms | 19.4 |"
+}

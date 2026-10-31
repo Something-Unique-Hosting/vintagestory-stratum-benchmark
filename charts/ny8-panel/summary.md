@@ -1,0 +1,35 @@
+| Metric | Vanilla | Stratum | Change |
+|---|---|---|---|
+| worldgen_wall_s | 39.92 s | 31.54 s | -21.0% (better) |
+| reload_wall_s | 1.53 s | 1.96 s | +28.2% (worse) |
+| worldgen_columns_per_s | 42.11 columns/s | 53.30 columns/s | +26.6% (better) |
+| reload_columns_per_s | 1,098.82 columns/s | 857.63 columns/s | -22.0% (worse) |
+| worldgen_cpu_s | 44.40 s | 59.38 s | +33.8% (worse) |
+| entities_tick_mean_ms | 5.03 ms | 4.25 ms | -15.4% (better) |
+| entities_tick_median_ms | 4.56 ms | 4.09 ms | -10.2% (better) |
+| entities_tick_p95_ms | 6.95 ms | 5.23 ms | -24.8% (better) |
+| entities_tick_p99_ms | 16.71 ms | 10.05 ms | -39.9% (better) |
+| idle_tick_mean_ms | 1.45 ms | 2.05 ms | +41.5% (worse) |
+| idle_tick_median_ms | 1.54 ms | 1.86 ms | +20.8% (worse) |
+| idle_tick_p95_ms | 2.18 ms | 3.10 ms | +42.0% (worse) |
+| idle_tick_p99_ms | 2.74 ms | 3.46 ms | +26.1% (worse) |
+| idle_cpu_pct_of_one_core | 5.49 % | 12.99 % | +136.6% (worse) |
+| entities_cpu_pct_of_one_core | 19.52 % | 20.22 % | +3.6% (worse) |
+| peak_working_set_mb | 1,760.71 MB | 2,686.13 MB | +52.6% (worse) |
+| heap_after_worldgen_mb | 1,216.48 MB | 1,931.15 MB | +58.7% (worse) |
+| worldgen_cpu_ms | 44,395.46 ms | 59,379.92 ms | +33.8% (worse) |
+| worldgen_gc_pause_ms | 1,009.92 ms | 686.01 ms | -32.1% (better) |
+| worldgen_gc_gen0 | 349.50 collections | 111.50 collections | -68.1% (better) |
+| worldgen_gc_gen2 | 1.00 collections | 9.00 collections | +800.0% (worse) |
+| idle_cpu_ms | 1,108.59 ms | 2,597.91 ms | +134.3% (worse) |
+| idle_gc_pause_ms | 12.53 ms | 9.48 ms | -24.3% (better) |
+| idle_gc_gen0 | 10.00 collections | 3.00 collections | -70.0% (better) |
+| idle_gc_gen2 | 0.00 collections | 0.00 collections | +nan% (worse) |
+| entities_cpu_ms | 8,774.12 ms | 9,097.34 ms | +3.7% (worse) |
+| entities_gc_pause_ms | 215.34 ms | 141.51 ms | -34.3% (better) |
+| entities_gc_gen0 | 56.00 collections | 19.50 collections | -65.2% (better) |
+| entities_gc_gen2 | 1.00 collections | 0.00 collections | -100.0% (better) |
+| startup_fresh_s | 16.68 s | 14.83 s | -11.1% (better) |
+| startup_existing_s | 10.89 s | 10.50 s | -3.6% (better) |
+| idle_tps | 29.73 ticks/s | 30.00 ticks/s | +0.9% (better) |
+| entities_tps | 29.79 ticks/s | 30.01 ticks/s | +0.7% (better) |
